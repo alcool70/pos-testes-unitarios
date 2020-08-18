@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-
 public class Item {
     private Long id;
     private TipoCliente tipoCliente;
@@ -17,5 +16,4 @@ public class Item {
     public Double getValorComDesconto(){
         return this.produto.getValor() * this.tipoCliente.getFatorDesconto(this.qtd);
     }
-
 }
