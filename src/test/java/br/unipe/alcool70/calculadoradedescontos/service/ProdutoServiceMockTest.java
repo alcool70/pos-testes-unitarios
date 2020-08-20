@@ -5,92 +5,83 @@ import br.unipe.alcool70.calculadoradedescontos.repository.ProdutoRepository;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 @Nested
 @DisplayName("TESTE MOCKITO")
-@RunWith(MockitoJUnitRunner.class)
 @ExtendWith(MockitoExtension.class)
-
 public class ProdutoServiceMockTest {
     @Mock
-    ProdutoRepository mock;
+    private ProdutoRepository mock;
     @InjectMocks
-    ProdutoService driver;
+    private ProdutoService driver;
     private Faker faker = new Faker(new Locale("pt_BR"));
-    Integer totalDeProdutos = 10;
-    Long idProdutoValido = 1l;
+    private Integer totalDeProdutos = 10;
+    private Long idProdutoValido = 1L;
+    private Long idProdutoInvalido = 0L;
 
     @BeforeEach
-    void setUp() {
-        this.driver = new ProdutoService();
+    public void setUp() {
+        MockitoAnnotations.initMocks(this);
     }
 
     @AfterEach
-    void tearDown() {
+    public void tearDown() {
         this.driver = null;
     }
 
     @Test
-    void findAllQuandoTenho10ProdutosEntao10ProdutosSaoCarregados() {
+    public void findAllQuandoTenho10ProdutosEntao10ProdutosSaoCarregados() {
 
         Mockito.when(this.mock.getAll())
-                .thenReturn(criarProdutos(10));
-        //Procedimento
-        Collection<Produto> resultados = this.driver.findAll();
-        //Verificacao
-        assertEquals(0, resultados.size());
-        resultados.stream().forEach(
-                p -> System.out.println(p.toString())
-        );
-    }
-
-    @Test
-    void testFindAllQuandoNenhumProdutoEntao0ProdutosSaoCarregados() {
+                .thenReturn(criarProdutos(this.totalDeProdutos));
         //Procedimento
         Collection<Produto> resultados = this.driver.findAll();
         //Verificacao
         assertEquals(this.totalDeProdutos, resultados.size());
+        resultados.forEach(System.out::println);
     }
 
     @Test
-    void testFindByIdQuandoIdProdutoInexistenteEntaoNenhumProdutoRetornado() {
+    public void testFindAllQuandoNenhumProdutoEntao0ProdutosSaoCarregados() {
         //Procedimento
-        Optional<Produto> resultado = this.driver.findById(0l);
+        Collection<Produto> resultados = this.driver.findAll();
+        //Verificacao
+        assertEquals(0, resultados.size());
+    }
+
+    @Test
+    public void testFindByIdQuandoIdProdutoInexistenteEntaoNenhumProdutoRetornado() {
+        //Procedimento
+        Optional<Produto> resultado = this.driver.findById(this.idProdutoInvalido);
         //Verificacao
         assertTrue(resultado.isEmpty());
-        assertFalse(resultado.isPresent());
-        assertThrows(NoSuchElementException.class, () -> {
-            resultado.get();
-        });
-
+        assertThrows(NoSuchElementException.class, resultado::get);
     }
 
     @Test
-    void testFindByIdQuandoIdProdutoValidoEntao1ProdutoRetornado() {
+    public void testFindByIdQuandoIdProdutoValidoEntao1ProdutoRetornado() {
         //Procedimento
-        Optional<Produto> resultado = this.driver.findById(1l);
+        Optional<Produto> resultado = this.driver.findById(this.idProdutoValido);
         //Verificacao
         assertTrue(resultado.isPresent());
-        assertFalse(resultado.isEmpty());
         assertNotNull(resultado.get());
-
     }
 
     private Collection<Produto> criarProdutos(Integer qtd) {
-        Collection<Produto> produtos = new ArrayList<Produto>();
+        Collection<Produto> produtos = new ArrayList<>();
         Faker faker = new Faker(new Locale("pt_BR"));
-        for (int i = 0; i > qtd; i++) {
+        for (int i = 0; i < qtd; i++) {
             produtos.add(new Produto(
-                    i + 1l,
+                    i + 1L,
                     faker.commerce().productName(),
                     faker.number().randomDouble(2, 100, 2000)
             ));
