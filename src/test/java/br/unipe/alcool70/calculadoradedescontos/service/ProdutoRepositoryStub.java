@@ -17,7 +17,6 @@ import java.util.Optional;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-
 public class ProdutoRepositoryStub implements ProdutoRepository {
 
     private Collection<Produto> produtos;
@@ -30,18 +29,19 @@ public class ProdutoRepositoryStub implements ProdutoRepository {
 
     @Override
     public Optional<Produto> get(Long id) {
-        if(id == 1){
-           return Optional.of(new Produto(id,"Caixa de Som", 1000.00));
-        }
-        return Optional.empty();
+        if (id == 1)
+            return Optional.of(new Produto(id, "Caixa de Som", 1000.00));
+        else
+            return Optional.empty();
     }
-    public void criarProdutos(Integer qtd){
-        this.produtos = new ArrayList<Produto>();
-        for(int i = 0; i > qtd; i++){
+
+    public void criarProdutos(Integer qtd) {
+        this.produtos = new ArrayList<>();
+        for (int i = 0; i < qtd; i++) {
             this.produtos.add(new Produto(
-                    i+1l,
+                    i + 1L,
                     faker.commerce().productName(),
-                    faker.number().randomDouble(2,100,2000)
+                    faker.number().randomDouble(2, 100, 2000)
             ));
         }
     }
