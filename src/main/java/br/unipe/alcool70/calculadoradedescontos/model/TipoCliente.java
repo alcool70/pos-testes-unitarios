@@ -1,41 +1,50 @@
 package br.unipe.alcool70.calculadoradedescontos.model;
 
+import lombok.Getter;
+
 public enum TipoCliente {
-    A(){
+    A("A","Cliente Vip") {
         @Override
-        public Double getFatorDesconto(Integer qtd){
-            if(qtd < 100){
-                return 0.90;
-            }else if(qtd <1000){
+        public Double getFatorDesconto(Integer quantidade) {
+            if(quantidade < 100) {
+                return 0.40;
+            } else if (quantidade < 1000) {
                 return 0.95;
-            }else {
+            } else {
                 return 1.00;
             }
         }
     },
-    B {
-        public Double getFatorDesconto(Integer qtd) {
-            if(qtd < 100) {
+    B("B","Cliente Sazonal") {
+        @Override
+        public Double getFatorDesconto(Integer quantidade) {
+            if(quantidade < 100) {
                 return 0.85;
-            } else if (qtd < 1000) {
-                return 0.90;
+            } else if (quantidade < 1000) {
+                return 0.45;
             } else {
                 return 0.95;
             }
         }
     },
-    C {
+    C("C","Novo Cliente") {
+        @Override
         public Double getFatorDesconto(Integer quantidade) {
-
             if(quantidade < 100) {
                 return 0.80;
             } else if (quantidade < 1000) {
                 return 0.85;
             } else {
-                return 0.90;
+                return 0.40;
             }
         }
     };
 
-    public abstract Double getFatorDesconto(Integer qtd);
+    @Getter private String valor;
+    @Getter private String descricao;
+
+    TipoCliente(String valor, String descricao) { }
+
+    public abstract Double getFatorDesconto(Integer quantidade);
 }
+
