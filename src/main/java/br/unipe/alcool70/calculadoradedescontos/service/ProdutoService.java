@@ -14,7 +14,7 @@ public class ProdutoService {
 
     @Autowired
     @Setter
-    ProdutoRepository produtoRepository;
+    private ProdutoRepository produtoRepository;
 
     public Collection<Produto> findAll() {
         return this.produtoRepository.getAll();
