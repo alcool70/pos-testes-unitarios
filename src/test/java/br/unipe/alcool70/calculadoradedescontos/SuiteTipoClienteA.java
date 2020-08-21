@@ -10,8 +10,7 @@ import org.junit.runner.RunWith;
 @SelectPackages({
         "br.unipe.alcool70.calculadoradedescontos",
         "br.unipe.alcool70.calculadoradedescontos.model"
-
 })
+
 @IncludeTags("ClienteA")
-public class SuiteTipoClienteA {
-}
+public class SuiteTipoClienteA {}
