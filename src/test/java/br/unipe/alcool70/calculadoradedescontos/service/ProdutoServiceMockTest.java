@@ -16,14 +16,13 @@ import java.util.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 @Nested
-@DisplayName("TESTE MOCKITO")
+@DisplayName("Testes de Produto com Mockito")
 @ExtendWith(MockitoExtension.class)
 public class ProdutoServiceMockTest {
     @Mock
     private ProdutoRepository mock;
     @InjectMocks
     private ProdutoService driver;
-    private Faker faker = new Faker(new Locale("pt_BR"));
     private Integer totalDeProdutos = 10;
     private Long idProdutoValido = 1L;
     private Long idProdutoInvalido = 0L;
@@ -39,10 +38,9 @@ public class ProdutoServiceMockTest {
     }
 
     @Test
+    @DisplayName("Quando tenho 10 produtos então 10 produtos são carregados")
     public void findAllQuandoTenho10ProdutosEntao10ProdutosSaoCarregados() {
-
-        Mockito.when(this.mock.getAll())
-                .thenReturn(criarProdutos(this.totalDeProdutos));
+        Mockito.when(this.mock.getAll()).thenReturn(criarProdutos(this.totalDeProdutos));
         //Procedimento
         Collection<Produto> resultados = this.driver.findAll();
         //Verificacao
@@ -51,7 +49,9 @@ public class ProdutoServiceMockTest {
     }
 
     @Test
+    @DisplayName("Quando não tenho produtos então nenhum produto é carregado")
     public void testFindAllQuandoNenhumProdutoEntao0ProdutosSaoCarregados() {
+        Mockito.when(this.mock.getAll()).thenReturn(criarProdutos(0));
         //Procedimento
         Collection<Produto> resultados = this.driver.findAll();
         //Verificacao
@@ -59,6 +59,7 @@ public class ProdutoServiceMockTest {
     }
 
     @Test
+    @DisplayName("Quando um produto não existe então nenhum produto é encontrado")
     public void testFindByIdQuandoIdProdutoInexistenteEntaoNenhumProdutoRetornado() {
         //Procedimento
         Optional<Produto> resultado = this.driver.findById(this.idProdutoInvalido);
@@ -68,7 +69,9 @@ public class ProdutoServiceMockTest {
     }
 
     @Test
+    @DisplayName("Quando tenho 1 produtos válido então 1 produto é encontrado")
     public void testFindByIdQuandoIdProdutoValidoEntao1ProdutoRetornado() {
+        Mockito.when(this.mock.get(1L)).thenReturn(Optional.of(Produto.builder().id(1L).build()));
         //Procedimento
         Optional<Produto> resultado = this.driver.findById(this.idProdutoValido);
         //Verificacao
@@ -80,11 +83,13 @@ public class ProdutoServiceMockTest {
         Collection<Produto> produtos = new ArrayList<>();
         Faker faker = new Faker(new Locale("pt_BR"));
         for (int i = 0; i < qtd; i++) {
-            produtos.add(new Produto(
-                    i + 1L,
-                    faker.commerce().productName(),
-                    faker.number().randomDouble(2, 100, 2000)
-            ));
+            produtos.add(
+                    Produto.builder()
+                            .id(i + 1L)
+                            .nome(faker.commerce().productName())
+                            .valor(faker.number().randomDouble(2, 100, 2000))
+                            .build()
+            );
         }
         return produtos;
     }
