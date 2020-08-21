@@ -1,10 +1,7 @@
 package br.unipe.alcool70.calculadoradedescontos.model;
 
 import com.github.javafaker.Faker;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.util.Locale;
 
@@ -15,15 +12,8 @@ class ItemTest {
     private double tolerance = 0.01;
     private Long validId = 1L;
 
-    @BeforeEach
-    void setUp() {
-    }
-
-    @AfterEach
-    void tearDown() {
-    }
-
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteA")})
     @DisplayName("Valor com desconto deve ser 111.10±0.05 para Cliente A, qtde 1 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteAQtde1() {
         Item item = Item.builder()
@@ -41,6 +31,7 @@ class ItemTest {
     }
 
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteA")})
     @DisplayName("Valor com desconto deve ser 117.27±0.05 para Cliente A, qtde 100 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteAQtde100() {
         Item item = Item.builder()
@@ -58,6 +49,7 @@ class ItemTest {
     }
 
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteA")})
     @DisplayName("Valor com desconto deve ser 123.45 para Cliente A, qtde 1000 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteAQtde1000() {
         Item item = Item.builder()
@@ -75,6 +67,7 @@ class ItemTest {
     }
 
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteB")})
     @DisplayName("Valor com desconto deve ser 104.93±0.05 para Cliente B, qtde 1 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteBQtde1() {
         Item item = Item.builder()
@@ -92,6 +85,7 @@ class ItemTest {
     }
 
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteB")})
     @DisplayName("Valor com desconto deve ser 111.1±0.05 para Cliente B, qtde 100 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteBQtde100() {
         Item item = Item.builder()
@@ -109,6 +103,7 @@ class ItemTest {
     }
 
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteB")})
     @DisplayName("Valor com desconto deve ser 117.27±0.05 para Cliente B, qtde 1000 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteBQtde1000() {
         Item item = Item.builder()
@@ -126,6 +121,7 @@ class ItemTest {
     }
 
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteC")})
     @DisplayName("Valor com desconto deve ser 98.76±0.05 para Cliente C, qtde 1 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteCQtde1() {
         Item item = Item.builder()
@@ -143,6 +139,7 @@ class ItemTest {
     }
 
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteC")})
     @DisplayName("Valor com desconto deve ser 104.93±0.05 para Cliente C, qtde 100 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteCQtde100() {
         Item item = Item.builder()
@@ -160,6 +157,7 @@ class ItemTest {
     }
 
     @Test
+    @Tags({@Tag("All"), @Tag("ClienteC")})
     @DisplayName("Valor com desconto deve ser 111.1±0.05 para Cliente C, qtde 1000 e valor do produto 123.45")
     void testGetValorComDescontoQuandoClienteCQtde1000() {
         Item item = Item.builder()
