@@ -17,14 +17,13 @@ class ProdutoServiceStubTest {
     //Stub para o Repository
     ProdutoRepositoryStub stub;
     Integer totalDeProdutos = 10;
-    Long idProdutoValido = 1l;
+    Long idProdutoValido = 1L;
 
     @BeforeEach
     void setUp() {
         this.driver = new ProdutoService();
         this.stub = new ProdutoRepositoryStub();
         this.driver.setProdutoRepository(stub);
-
     }
 
     @AfterEach
@@ -36,14 +35,12 @@ class ProdutoServiceStubTest {
     @Test
     void findAllQuandoTenho10ProdutosEntao10ProdutosSaoCarregados() {
 
-        this.stub.criarProdutos(10);
+        this.stub.criarProdutos(this.totalDeProdutos);
         //Procedimento
         Collection<Produto> resultados = this.driver.findAll();
         //Verificacao
-        assertEquals(0, resultados.size());
-        resultados.stream().forEach(
-                p -> System.out.println(p.toString())
-        );
+        assertEquals(10, resultados.size());
+        resultados.forEach(System.out::println);
     }
     @Test
     void testFindAllQuandoNenhumProdutoEntao0ProdutosSaoCarregados(){
@@ -56,22 +53,18 @@ class ProdutoServiceStubTest {
     @Test
     void testFindByIdQuandoIdProdutoInexistenteEntaoNenhumProdutoRetornado() {
         //Procedimento
-        Optional<Produto> resultado = this.driver.findById(0l);
+        Optional<Produto> resultado = this.driver.findById(0L);
         //Verificacao
         assertTrue(resultado.isEmpty());
-        assertFalse(resultado.isPresent());
-        assertThrows(NoSuchElementException.class, () -> {
-            resultado.get();
-        });
+        assertThrows(NoSuchElementException.class, resultado::get);
 
     }
     @Test
     void testFindByIdQuandoIdProdutoValidoEntao1ProdutoRetornado() {
         //Procedimento
-        Optional<Produto> resultado = this.driver.findById(1l);
+        Optional<Produto> resultado = this.driver.findById(1L);
         //Verificacao
         assertTrue(resultado.isPresent());
-        assertFalse(resultado.isEmpty());
         assertNotNull(resultado.get());
 
     }
