@@ -18,7 +18,6 @@ import java.util.Optional;
 @NoArgsConstructor
 @Data
 public class ProdutoRepositoryStub implements ProdutoRepository {
-
     private Collection<Produto> produtos;
     private Faker faker = new Faker(new Locale("pt_BR"));
 
