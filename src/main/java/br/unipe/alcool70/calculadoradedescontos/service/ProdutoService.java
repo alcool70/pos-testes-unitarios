@@ -10,16 +10,16 @@ import java.util.Collection;
 import java.util.Optional;
 
 @Service
-
 public class ProdutoService {
-
     @Autowired
-    @Setter ProdutoRepository produtoRepository;
+    @Setter
+    private ProdutoRepository produtoRepository;
 
-    public Collection<Produto> findAll(){
+    public Collection<Produto> findAll() {
         return this.produtoRepository.getAll();
     }
-    public Optional<Produto> findById(Long id){
+
+    public Optional<Produto> findById(Long id) {
         return this.produtoRepository.get(id);
     }
 
