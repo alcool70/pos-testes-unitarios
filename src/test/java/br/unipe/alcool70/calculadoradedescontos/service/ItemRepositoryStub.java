@@ -29,13 +29,13 @@ public class ItemRepositoryStub implements ItemRepository {
     public Optional<Item> get(Long id) {
         if (id == 1L)
             return Optional.of(
-                    generateItems(1, new Random().nextInt(3000), "")
+                    generateItems(1, new Random().nextInt(3000), -1,"")
                             .iterator().next()
             );
         else return Optional.empty();
     }
 
-    public static Collection<Item> generateItems(int qtdItems, int qtd, String tipoCliente) {
+    public static Collection<Item> generateItems(int qtdItems, int qtd, double vlr, String tipoCliente) {
         String clientType = tipoCliente.isBlank()
                 ? Arrays.asList("A", "B", "C").get(new Random().nextInt(2))
                 : tipoCliente;
@@ -47,7 +47,11 @@ public class ItemRepositoryStub implements ItemRepository {
                             .id(i++)
                             .tipoCliente(TipoCliente.valueOf(clientType))
                             .produto(Produto.builder()
-                                    .valor(faker.number().randomDouble(2, 200, 2000))
+                                    .valor(
+                                            vlr < 0
+                                                ? faker.number().randomDouble(2, 200, 2000)
+                                                : vlr
+                                    )
                                     .nome(faker.commerce().productName())
                                     .id(faker.random().nextLong())
                                     .build()
