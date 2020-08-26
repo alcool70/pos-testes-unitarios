@@ -9,15 +9,13 @@ import java.util.Collection;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
+import static br.unipe.alcool70.calculadoradedescontos.service.ItemRepositoryStub.generateItems;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ItemServiceStubTest {
 
     private ItemService driver;
-    //Stub para o Repository
-    private ItemRepositoryStub stub;
-    private Integer totalDeItems = 10;
-    private Long idItemValido = 1L;
+    private ItemRepositoryStub stub; //Stub para o Repository
 
     @BeforeEach
     void setUp() {
@@ -34,8 +32,8 @@ class ItemServiceStubTest {
 
     @Test
     void findAllQuandoTenho10ItemsParaTipoClienteAEntao10ItemsSaoCarregados() {
-
-        this.stub.generateItems(this.totalDeItems, 10, "A");
+        int totalDeItems = 10;
+        this.stub.setItems(generateItems(totalDeItems, 10, -1,"A"));
         //Procedimento
         Collection<Item> resultados = this.driver.findAll();
         //Verificacao
@@ -58,16 +56,15 @@ class ItemServiceStubTest {
         //Verificacao
         assertTrue(resultado.isEmpty());
         assertThrows(NoSuchElementException.class, resultado::get);
-
     }
 
     @Test
     void testFindByIdQuandoIdItemValidoEntao1ItemRetornado() {
         //Procedimento
-        Optional<Item> resultado = this.driver.findById(1L);
+        long idItemValido = 1L;
+        Optional<Item> resultado = this.driver.findById(idItemValido);
         //Verificacao
         assertTrue(resultado.isPresent());
         assertNotNull(resultado.get());
-
     }
 }
