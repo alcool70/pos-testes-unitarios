@@ -33,7 +33,7 @@ class ItemServiceStubTest {
     @Test
     void findAllQuandoTenho10ItemsParaTipoClienteAEntao10ItemsSaoCarregados() {
         int totalDeItems = 10;
-        this.stub.setItems(generateItems(totalDeItems, 10, "A"));
+        this.stub.setItems(generateItems(totalDeItems, 10, -1,"A"));
         //Procedimento
         Collection<Item> resultados = this.driver.findAll();
         //Verificacao
@@ -61,7 +61,7 @@ class ItemServiceStubTest {
     @Test
     void testFindByIdQuandoIdItemValidoEntao1ItemRetornado() {
         //Procedimento
-        Long idItemValido = 1L;
+        long idItemValido = 1L;
         Optional<Item> resultado = this.driver.findById(idItemValido);
         //Verificacao
         assertTrue(resultado.isPresent());
