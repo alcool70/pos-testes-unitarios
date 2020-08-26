@@ -18,7 +18,7 @@ import java.util.*;
 @Data
 public class ItemRepositoryStub implements ItemRepository {
     private Collection<Item> items = new ArrayList<>();
-    private Faker faker = new Faker(new Locale("pt_BR"));
+    private static Faker faker = new Faker(new Locale("pt_BR"));
 
     @Override
     public Collection<Item> getAll() {
@@ -28,31 +28,24 @@ public class ItemRepositoryStub implements ItemRepository {
     @Override
     public Optional<Item> get(Long id) {
         if (id == 1L)
-            return Optional.of(Item.builder()
-                    .id(1L)
-                    .tipoCliente(TipoCliente.valueOf(
-                            Arrays.asList("A", "B", "C")
-                                    .get(new Random().nextInt(2))
-                    ))
-                    .produto(Produto.builder()
-                            .valor(faker.number().randomDouble(2, 200, 2000))
-                            .nome(faker.commerce().productName())
-                            .id(faker.random().nextLong())
-                            .build()
-                    )
-                    .qtd(new Random().nextInt(3000))
-                    .build()
+            return Optional.of(
+                    generateItems(1, new Random().nextInt(3000), "")
+                            .iterator().next()
             );
         else return Optional.empty();
     }
 
-    public void generateItems(int qtdItems, int qtd, String tipoCliente) {
+    public static Collection<Item> generateItems(int qtdItems, int qtd, String tipoCliente) {
+        String clientType = tipoCliente.isBlank()
+                ? Arrays.asList("A", "B", "C").get(new Random().nextInt(2))
+                : tipoCliente;
+        Collection<Item> items = new ArrayList<>();
         long i = 1;
-        do {
-            this.items.add(
+        while (items.size() < qtdItems) {
+            items.add(
                     Item.builder()
                             .id(i++)
-                            .tipoCliente(TipoCliente.valueOf(tipoCliente))
+                            .tipoCliente(TipoCliente.valueOf(clientType))
                             .produto(Produto.builder()
                                     .valor(faker.number().randomDouble(2, 200, 2000))
                                     .nome(faker.commerce().productName())
@@ -62,6 +55,7 @@ public class ItemRepositoryStub implements ItemRepository {
                             .qtd(qtd)
                             .build()
             );
-        } while (this.items.size() < qtdItems);
+        }
+        return items;
     }
 }
