@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>14</java.version>
+		<selenium.version>4.0.0-alpha-6</selenium.version>
 	</properties>
 
 	<dependencies>
@@ -61,7 +62,17 @@
 			<artifactId>javafaker</artifactId>
 			<version>1.0.2</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.2.0</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
