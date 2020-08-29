@@ -17,6 +17,8 @@
 	<properties>
 		<java.version>14</java.version>
 		<selenium.version>4.0.0-alpha-6</selenium.version>
+		<awaitility.version>4.0.3</awaitility.version>
+		<webdrivermanager.version>4.2.0</webdrivermanager.version>
 	</properties>
 
 	<dependencies>
@@ -70,8 +72,13 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>4.2.0</version>
+			<version>${webdrivermanager.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.awaitility</groupId>
+			<artifactId>awaitility</artifactId>
+			<version>${awaitility.version}</version>
 		</dependency>
 	</dependencies>
 
