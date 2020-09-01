@@ -1,0 +1,15 @@
+Uma duvida que surgiu fazendo a classe CT023-ClienteC-Desconto-0,8-20%
+foi nas precondiçoes e procedimentos
+
+# Pré condições iniciais
+  Dado    que estou na página inicial do sistema
+  E       acesso o menu para a Listagem de Produtos de Simulação
+  E       seleciono um dos produtos listados <-(duvida) aqui n seria parte do procedimento? apesar de estar na tela de seleçao de produto
+
+# Procedimento <-(duvida) selecionar um dos produtos n seria parte do procefimento? apesar de nao estar fazendo parte da tela de formulario?
+  Quando  preencho com dados válidos o Formulário de informações complementares
+  | tipo  | <tipo>  |
+  | quant | <quant> |
+  E       submeto o formulário
+
+
