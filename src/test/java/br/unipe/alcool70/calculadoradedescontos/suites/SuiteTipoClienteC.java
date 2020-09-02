@@ -8,9 +8,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 @SelectPackages({
-        "br.unipe.alcool70.calculadoradedescontos",
-        "br.unipe.alcool70.calculadoradedescontos.model"
+		 "br.unipe.alcool70.calculadoradedescontos",
+		 "br.unipe.alcool70.calculadoradedescontos.model"
 })
 
 @IncludeTags("ClienteC")
-public class SuiteTipoClienteC {}
+public class SuiteTipoClienteC {
+}
