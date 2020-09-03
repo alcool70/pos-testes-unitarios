@@ -1,4 +1,4 @@
-package br.unipe.alcool70.calculadoradedescontos;
+package br.unipe.alcool70.calculadoradedescontos.suites;
 
 
 import org.junit.platform.runner.JUnitPlatform;
@@ -8,9 +8,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 @SelectPackages({
-        "br.unipe.alcool70.calculadoradedescontos",
-        "br.unipe.alcool70.calculadoradedescontos.model"
+		 "br.unipe.alcool70.calculadoradedescontos",
+		 "br.unipe.alcool70.calculadoradedescontos.model"
 })
 
-@IncludeTags("ClienteA")
-public class SuiteTipoClienteA {}
+@IncludeTags("ClienteB")
+public class SuiteTipoClienteB {
+}
