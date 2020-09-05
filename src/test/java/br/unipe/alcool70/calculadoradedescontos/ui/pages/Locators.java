@@ -14,4 +14,11 @@ public interface Locators {
 	String ID_BTNSUBMETERCONTATO = "contato.button.enviarMensagem";
 	String XPATH_TOASTMSG = "//strong";
 	String NAME_TIPOMENSAGEM = "tipoMsg";
+
+	/*FormularioCalculoDoDescontoParaProduto*/
+    String CSS_TIPO_CLIENTE = "tipoCliente";
+    String QUANTIDADE_PRODUTO ="quantidade";
+		String ID_PRODUTO_01 = "Código do Produto:";
+
+	String ID_BTNSUBMETERCALCULODESCONTO = "Calcular Desconto!";
 }

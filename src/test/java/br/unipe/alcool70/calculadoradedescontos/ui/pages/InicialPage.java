@@ -41,5 +41,6 @@ public class InicialPage extends MyPageObject {
 		getDriver().manage().window().maximize();
 		getDriver().get(url);
 	}
+	public void acessePaginaListagemDeProdutos(){clicar(botaoCalcularDesconto);}
 
 }
