@@ -33,9 +33,19 @@ public class Req001CLIENTBSteps {
 	@Step
 	public void verificar_mensagem_sucesso() {
 		assertThat(
-				 page.getfator(),
+				 page.getmsg(),
 				 containsStringIgnoringCase("Operação realizada com sucesso!")
+
 		);
 	}
+	 @Step
+	public String retornar_fator_de_desconto(){
+			page.getfator();
+		 return page.getfator();
+	 }
+
+
+
+
 
 }

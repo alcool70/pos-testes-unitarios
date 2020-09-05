@@ -12,8 +12,10 @@ public class ProdutoPage extends MyPageObject {
 	WebElement inputItem;
 	@FindBy (id = Locators.ID_BTCALCULAR)
 	WebElement btcalcular;
-	@FindBy (xpath = Locators.XPATH_FATOR)
+	@FindBy (xpath = Locators.XPATH_MSG)
 	WebElement descontomsg;
+	@FindBy (xpath = Locators.XPATH_FATOR)
+	WebElement fatorobtido;
 
 	public void acesseProduto() {
 		verificarPresenca(btproduto);
@@ -33,10 +35,12 @@ public class ProdutoPage extends MyPageObject {
 	public void calcularDesconto(){
 		clicar(btcalcular);
 	}
-
-	public String getfator(){
+	public String getmsg(){
 		return descontomsg.getText();
 	}
 
+	public String getfator(){
+		return fatorobtido.getText();
+}
 
 }

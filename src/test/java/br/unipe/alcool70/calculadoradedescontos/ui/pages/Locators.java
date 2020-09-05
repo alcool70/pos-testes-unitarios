@@ -21,7 +21,8 @@ public interface Locators {
 	String ID_CLIENTE    = "tipoCliente";
 	String ID_QUANTIDADE = "quantidade";
 	String ID_BTCALCULAR = "calculardesconto.button.calcular";
-	String XPATH_FATOR = "//strong";
+	String XPATH_MSG = "//strong";
+	String XPATH_FATOR= "//strong[contains(text(),'Fator obtido:')]";
 
 
 }
