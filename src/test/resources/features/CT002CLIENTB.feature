@@ -22,7 +22,7 @@ Funcionalidade: REQ-X - Calcular desconto
 
 		#Verificação
 		Então   verifico se a mensagem foi eixibida com sucesso
-		E 			verifico se o fator de desconto foi obitido
+
 
 		Exemplos:
 			| cliente| quantidade |fatoresperado						    	 | msg														 |
