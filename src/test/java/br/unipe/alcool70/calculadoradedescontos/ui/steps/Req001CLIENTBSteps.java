@@ -38,11 +38,6 @@ public class Req001CLIENTBSteps {
 
 		);
 	}
-	 @Step
-	public String retornar_fator_de_desconto(){
-			page.getfator();
-		 return page.getfator();
-	 }
 
 
 
