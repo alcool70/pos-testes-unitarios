@@ -21,6 +21,7 @@ public class Req003Steps {
 		page.solicitarEmailDoCliente(email);
 	}
 
+
 	@Step
 	public void informar_tipo_mensagem(String tipo) {
 		page.solicitarTipoMensagem(tipo);
