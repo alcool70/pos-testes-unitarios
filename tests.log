@@ -1,0 +1,434 @@
+4192 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+4229 [main] DEBUG n.t.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@209914db
+4237 [main] INFO   - Test Suite Started: REQ-X - Formulário de Contato
+5937 [main] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Enviar contato com sucesso (fluxo básico)(req-x---formulário-de-contato;enviar-contato-com-sucesso-(fluxo-básico))
+-------------------------------------------------------------------
+6190 [main] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature REQ-X - Formulário de Contato
+7603 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+20648 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+20649 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+20703 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+20720 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+20722 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+20851 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+20851 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+20851 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+20853 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+20853 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+20854 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+20854 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+20854 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+20857 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+20859 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+20860 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+20860 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+20860 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+20883 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+20883 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+20883 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+22822 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 10792 (auto-detected)
+22961 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 60:6d:c7:ff:fe:c5:3e:af (auto-detected)
+23110 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+23113 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+86676 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+86729 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_formulário_de_contato - acesse_pagina_contato
+88216 [main] DEBUG n.s.core.photography.Darkroom - Opening darkroom
+88219 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line starting up
+89571 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+89572 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-14263614891313667475
+89573 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+89579 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_contato
+90543 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+90544 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_nome
+91381 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\1922ada6d02d8cc32ca618c16af556871acc0b30b6af586c05689def988176ce.png
+91382 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-12499316299836615118
+91382 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\1922ada6d02d8cc32ca618c16af556871acc0b30b6af586c05689def988176ce.png
+91382 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_nome
+91399 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_emais
+92375 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\3b9a1c0affa75ac88c7a93e4ca40a04c0eeefbccfa39c625a75208d5ce3f2710.png
+92376 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9888473132002255641
+92377 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\3b9a1c0affa75ac88c7a93e4ca40a04c0eeefbccfa39c625a75208d5ce3f2710.png
+92378 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_emais
+92394 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_tipo_mensagem
+93513 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\a631a525b1110314f526ce0d0a44729f8cc519fcca4e9a888211906df04f3c2b.png
+93514 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9843695801946094281
+93515 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a631a525b1110314f526ce0d0a44729f8cc519fcca4e9a888211906df04f3c2b.png
+93516 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_mensagem
+93528 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_faixa_idade
+94944 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\a631a525b1110314f526ce0d0a44729f8cc519fcca4e9a888211906df04f3c2b.png
+94945 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_faixa_idade
+94963 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_mensagem
+96170 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\d5d7da4fd1f755703520abbe3cdf242ee86e8e7aeaafd3d9d4a1a5f14b4da60f.png
+96171 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-13892505130534755609
+96171 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\d5d7da4fd1f755703520abbe3cdf242ee86e8e7aeaafd3d9d4a1a5f14b4da60f.png
+96173 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_mensagem
+96670 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\7daa6339ce88c65a58fbbcb045b1df4d7f6eb8740d112ad17296c430721a1efb.png
+96671 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5288193127674808929
+96671 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\7daa6339ce88c65a58fbbcb045b1df4d7f6eb8740d112ad17296c430721a1efb.png
+96684 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.submeto_o_formulário - submeta
+97382 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\7daa6339ce88c65a58fbbcb045b1df4d7f6eb8740d112ad17296c430721a1efb.png
+97385 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: submeta
+97419 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.verifico_que_a_mensagem_de_sucesso_foi_exibida - verificar_mensagem_sucesso
+101855 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\68fe52394fc880f838885fd24a3f81a7b4e8537ef98e90bbe9b4836c39507466.png
+101856 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5119802204521028775
+101857 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\68fe52394fc880f838885fd24a3f81a7b4e8537ef98e90bbe9b4836c39507466.png
+106963 [main] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Enviar contato com sucesso (fluxo básico)
+---------------------------------------------------------------------
+106968 [main] DEBUG  - RELATED ISSUES: 
+107147 [main] ERROR  -     Test failed at step: Verificar mensagem sucesso
+107148 [main] ERROR  -     Timed out after 2 seconds. Element not found
+107269 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+120012 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+120031 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_formulário_de_contato - acesse_pagina_contato
+122059 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+122060 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_contato
+122596 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+122597 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_nome
+123696 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\fb1c05fdd4b0137d27c0ab7c932ea940140daf457884485e1bbd3ab23d2a0422.png
+123697 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_nome
+123697 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-13154807008250540919
+123697 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\fb1c05fdd4b0137d27c0ab7c932ea940140daf457884485e1bbd3ab23d2a0422.png
+123713 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_emais
+124931 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\b68be16d5bf705feca209db881079baf5d0e303bc3ff1fbb1613e84b98923259.png
+124936 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_emais
+124936 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-11465111599564598337
+124936 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\b68be16d5bf705feca209db881079baf5d0e303bc3ff1fbb1613e84b98923259.png
+124947 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_tipo_mensagem
+126429 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\3d522b8b8bbd3b18566e07cd91f16d883f48f8af5fa2b43675416f364882b334.png
+126430 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_mensagem
+126430 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-18106303964329461584
+126430 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\3d522b8b8bbd3b18566e07cd91f16d883f48f8af5fa2b43675416f364882b334.png
+126439 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_faixa_idade
+127442 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\dd215fad6a8ee4caf572a48984ca1d81517d0d7c0c189225c53232401494f204.png
+127443 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_faixa_idade
+127443 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6976633186071269769
+127443 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\dd215fad6a8ee4caf572a48984ca1d81517d0d7c0c189225c53232401494f204.png
+127460 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_mensagem
+128291 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\c6c4a5b9f23cbfc2446dec3cf2bfd11290d884de95154ffe56e723854354dccd.png
+128291 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_mensagem
+128291 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7338842967887444893
+128291 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\c6c4a5b9f23cbfc2446dec3cf2bfd11290d884de95154ffe56e723854354dccd.png
+128321 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.submeto_o_formulário - submeta
+129190 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\8a2a5d13bb7d45780b97367a908df350814ef946dc01ec34f2f1ddd04dfb9c64.png
+129191 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: submeta
+129191 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3348562901070607171
+129191 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\8a2a5d13bb7d45780b97367a908df350814ef946dc01ec34f2f1ddd04dfb9c64.png
+129657 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\0f9a8911d078e0a1a3b720e98c91207bf70b1c909212d0155156c8a1ea03371f.png
+129658 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-14184334583169503135
+129659 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\0f9a8911d078e0a1a3b720e98c91207bf70b1c909212d0155156c8a1ea03371f.png
+129670 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.verifico_que_a_mensagem_de_sucesso_foi_exibida - verificar_mensagem_sucesso
+130141 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\4b2bf00da5bb6f4da886140c3a4262558841860411c03255ad72acff1626ff64.png
+130141 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+130141 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-178284310686188774
+130142 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\4b2bf00da5bb6f4da886140c3a4262558841860411c03255ad72acff1626ff64.png
+3319 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_pÃ¡gina_inicial_do_sistema - acesse_pagina_inicial
+5232 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+5233 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+5390 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+5410 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+5410 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+5567 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+5567 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+5567 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+5568 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+5568 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+5568 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+5568 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+5568 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+5568 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+5569 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+5569 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+5569 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+5569 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+5590 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+5591 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+5591 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+6995 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 1580 (auto-detected)
+7085 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 60:6d:c7:ff:fe:c5:3e:af (auto-detected)
+7332 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+7333 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+33816 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+33828 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_formulÃ¡rio_de_contato - acesse_pagina_contato
+35663 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_contato
+35803 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_vÃ¡lidos_o_formulÃ¡rio - informar_nome
+36264 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_nome
+36266 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_vÃ¡lidos_o_formulÃ¡rio - informar_emais
+36683 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_emais
+36685 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_vÃ¡lidos_o_formulÃ¡rio - informar_tipo_mensagem
+37331 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_mensagem
+37333 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_vÃ¡lidos_o_formulÃ¡rio - informar_faixa_idade
+37743 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_faixa_idade
+37745 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_vÃ¡lidos_o_formulÃ¡rio - informar_mensagem
+38173 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_mensagem
+38177 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.submeto_o_formulÃ¡rio - submeta
+38597 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: submeta
+38601 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.verifico_que_a_mensagem_de_sucesso_foi_exibida - verificar_mensagem_sucesso
+40674 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+40757 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_pÃ¡gina_inicial_do_sistema - acesse_pagina_inicial
+52535 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+52537 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_formulÃ¡rio_de_contato - acesse_pagina_contato
+53451 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_contato
+53474 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_vÃ¡lidos_o_formulÃ¡rio - informar_nome
+54076 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_nome
+54079 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_vÃ¡lidos_o_formulÃ¡rio - informar_emais
+54488 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_emais
+54489 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_vÃ¡lidos_o_formulÃ¡rio - informar_tipo_mensagem
+4494 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+4518 [main] DEBUG n.t.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@209914db
+4525 [main] INFO   - Test Suite Started: REQ-X - Formulário de Contato
+6025 [main] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Enviar contato com sucesso (fluxo básico)(req-x---formulário-de-contato;enviar-contato-com-sucesso-(fluxo-básico))
+-------------------------------------------------------------------
+6420 [main] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature REQ-X - Formulário de Contato
+7748 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+10468 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+10469 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+10547 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+10577 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+10578 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+10679 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+10680 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+10680 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+10680 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+10681 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+10681 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+10681 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+10682 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+10682 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+10682 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+10682 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+10683 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+10683 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+10699 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+10699 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+10700 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+11839 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 9864 (auto-detected)
+11927 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 60:6d:c7:ff:fe:c5:3e:af (auto-detected)
+12028 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+12029 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+23836 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+23885 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_formulário_de_contato - acesse_pagina_contato
+25113 [main] DEBUG n.s.core.photography.Darkroom - Opening darkroom
+25116 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line starting up
+27027 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+27028 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-277150546601565829
+27030 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+27030 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_contato
+27554 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+27557 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_nome
+28420 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\bdcba18acc76e609f433bdbe38348fbf850b4cf959eaec4bb3b4f241335bab0e.png
+28421 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_nome
+28421 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17580515434969664395
+28421 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\bdcba18acc76e609f433bdbe38348fbf850b4cf959eaec4bb3b4f241335bab0e.png
+28431 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_emais
+29199 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\74a0aa69af42cd43841cde1a30d6fc6abd5579847a1b7061accd35ac28af0f1c.png
+29200 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3992296019403988715
+29200 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\74a0aa69af42cd43841cde1a30d6fc6abd5579847a1b7061accd35ac28af0f1c.png
+29202 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_emais
+29215 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_tipo_mensagem
+30034 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\a631a525b1110314f526ce0d0a44729f8cc519fcca4e9a888211906df04f3c2b.png
+30035 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_mensagem
+30035 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-10984895083373366045
+30035 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a631a525b1110314f526ce0d0a44729f8cc519fcca4e9a888211906df04f3c2b.png
+30046 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_faixa_idade
+30796 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\a631a525b1110314f526ce0d0a44729f8cc519fcca4e9a888211906df04f3c2b.png
+30796 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_faixa_idade
+30809 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_mensagem
+31718 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\edb2afb3be847ff88efa84bf249dce6e3d0ac38c0eead7af0ceb4528b9b2c9ed.png
+31719 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-15999246521126299855
+31719 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\edb2afb3be847ff88efa84bf249dce6e3d0ac38c0eead7af0ceb4528b9b2c9ed.png
+31722 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_mensagem
+31761 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.submeto_o_formulário - submeta
+32391 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\7daa6339ce88c65a58fbbcb045b1df4d7f6eb8740d112ad17296c430721a1efb.png
+32392 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: submeta
+32392 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-14784558980823613789
+32392 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\7daa6339ce88c65a58fbbcb045b1df4d7f6eb8740d112ad17296c430721a1efb.png
+32425 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.verifico_que_a_mensagem_de_sucesso_foi_exibida - verificar_mensagem_sucesso
+34222 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\b20b7f6b5089038a0a1f5f67d62c375d0385bd6b9398a7243596088111ed0e6c.png
+34222 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+34222 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2606687514292132259
+34222 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\b20b7f6b5089038a0a1f5f67d62c375d0385bd6b9398a7243596088111ed0e6c.png
+41067 [main] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Enviar contato com sucesso (fluxo básico)
+----------------------------------------------------------------------------
+41114 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+53694 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+53710 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_formulário_de_contato - acesse_pagina_contato
+54942 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+54942 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_contato
+55355 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+55356 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_nome
+56158 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\1ded3a806ba996a8c692b0b21da29ebd56e37b1760b125b76dc5d047e5d2ef29.png
+56159 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_nome
+56159 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9408215853014073279
+56159 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\1ded3a806ba996a8c692b0b21da29ebd56e37b1760b125b76dc5d047e5d2ef29.png
+56168 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_emais
+56898 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\b83b8eeebc7bacd327eae43cc994fa4e5f8860ed815da2a7fe46d9e98336dd59.png
+56899 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5534335118061905077
+56900 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\b83b8eeebc7bacd327eae43cc994fa4e5f8860ed815da2a7fe46d9e98336dd59.png
+56900 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_emais
+56908 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_tipo_mensagem
+57732 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\3d522b8b8bbd3b18566e07cd91f16d883f48f8af5fa2b43675416f364882b334.png
+57732 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_mensagem
+57732 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17674296926293709482
+57733 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\3d522b8b8bbd3b18566e07cd91f16d883f48f8af5fa2b43675416f364882b334.png
+57741 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_faixa_idade
+58648 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\4b460cbdb425f2dd1f9bdb46d7b3b5e20e18cf9abacbe087ec92c49812059119.png
+58648 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_faixa_idade
+58648 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2126672533298324870
+58649 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\4b460cbdb425f2dd1f9bdb46d7b3b5e20e18cf9abacbe087ec92c49812059119.png
+58656 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_mensagem
+59457 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\74cd47593a68d0ab0d9b42ba8301a9389e57dc39bba26d9659502b0fc39f7a85.png
+59457 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_mensagem
+59457 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9313676622170583862
+59458 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\74cd47593a68d0ab0d9b42ba8301a9389e57dc39bba26d9659502b0fc39f7a85.png
+59477 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.submeto_o_formulário - submeta
+59987 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\eeac3c8206ba1ffebeedcde4fab98b1dcc083f9b7b1c131a570f5d8047be1e00.png
+59988 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-586169353562581595
+59989 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\eeac3c8206ba1ffebeedcde4fab98b1dcc083f9b7b1c131a570f5d8047be1e00.png
+59989 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: submeta
+60573 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\0f9a8911d078e0a1a3b720e98c91207bf70b1c909212d0155156c8a1ea03371f.png
+60573 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.verifico_que_a_mensagem_de_sucesso_foi_exibida - verificar_mensagem_sucesso
+60573 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-16446610030092662877
+60573 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\0f9a8911d078e0a1a3b720e98c91207bf70b1c909212d0155156c8a1ea03371f.png
+60963 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\4b2bf00da5bb6f4da886140c3a4262558841860411c03255ad72acff1626ff64.png
+60964 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+60964 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-10131586608699408076
+60964 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\4b2bf00da5bb6f4da886140c3a4262558841860411c03255ad72acff1626ff64.png
+65741 [main] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Enviar contato com sucesso (fluxo básico)
+----------------------------------------------------------------------------
+65813 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+76067 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+76090 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_formulário_de_contato - acesse_pagina_contato
+77216 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\39d0af505213ab10d4659eec47a901b85202c3693fb33c9c83bfb368cbfb7561.png
+77216 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_contato
+77247 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_nome
+77976 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\6fa5a52f04b180696cf05b1a18164e6bcf7541707cf827478714bd96ad4d7064.png
+77977 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_nome
+77977 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7435932549924853775
+77977 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\6fa5a52f04b180696cf05b1a18164e6bcf7541707cf827478714bd96ad4d7064.png
+77984 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_emais
+78578 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\4a0657d624d096cf454ffe3f7d2bdcc1140e36c1cb8e131187e670831891184d.png
+78578 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_emais
+78578 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17034198210769620981
+78579 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\4a0657d624d096cf454ffe3f7d2bdcc1140e36c1cb8e131187e670831891184d.png
+78585 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_tipo_mensagem
+79257 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\40547be36af22c5af6a7ffa388884e446dbec18aff3fa646ff8f79d72a835d5f.png
+79258 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17385623735647404737
+79259 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\40547be36af22c5af6a7ffa388884e446dbec18aff3fa646ff8f79d72a835d5f.png
+79262 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_mensagem
+79266 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_faixa_idade
+79933 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\145a96ae4753c4036fe05b4205d290405947790ce30ad9df9832763c29c69c4b.png
+79934 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6898205533379649450
+79934 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_faixa_idade
+79934 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\145a96ae4753c4036fe05b4205d290405947790ce30ad9df9832763c29c69c4b.png
+79937 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.preencho_com_dados_válidos_o_formulário - informar_mensagem
+80610 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\cd34a3191d2743633401c6045ceb121816a0a30ede9fa883bd87e9874bf3af71.png
+80611 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-13019453543575462775
+80612 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\cd34a3191d2743633401c6045ceb121816a0a30ede9fa883bd87e9874bf3af71.png
+80612 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_mensagem
+80632 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.submeto_o_formulário - submeta
+81074 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\c7d87a50607bce7f856f15d3da42737404c7c582703a8211cf4633d1d49d6f8b.png
+81075 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: submeta
+81076 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5882575130559580300
+81077 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\c7d87a50607bce7f856f15d3da42737404c7c582703a8211cf4633d1d49d6f8b.png
+81109 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req003Specs.verifico_que_a_mensagem_de_sucesso_foi_exibida - verificar_mensagem_sucesso
+81580 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\1df7654ca2d2f64c8bde18d51ed4da716255013db3e65dcb926a8001370dcb53.png
+81580 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+81581 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-12511566875759557258
+81581 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\1df7654ca2d2f64c8bde18d51ed4da716255013db3e65dcb926a8001370dcb53.png
+86659 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+87046 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+87110 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5308e79d
+87111 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome REQ-X - Formulário de Contato:Enviar contato com sucesso (fluxo básico)
+87111 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5308e79d: Generating report for test outcome: REQ-X - Formulário de Contato:Enviar contato com sucesso (fluxo básico)
+87117 [pool-2-thread-1] DEBUG n.t.c.r.j.JSONTestOutcomeReporter - Generating JSON report for Enviar contato com sucesso (fluxo básico) to file C:\Users\Victor Hugo\Documents\GitHub\pos-testes-unitarios\target\site\serenity\0f7b96a0c65763002f6137874e480d11e7bb09aa0557bb786b637d9d8bf82c6b.json (using temp file C:\Users\Victor Hugo\Documents\GitHub\pos-testes-unitarios\target\site\serenity\0f7b96a0c65763002f6137874e480d11e7bb09aa0557bb786b637d9d8bf82c6b.json4b4b03e1-7760-4ce8-906d-4a3c59bb86e3)
+87292 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome REQ-X - Formulário de Contato:Enviar contato com sucesso (fluxo básico) done
+87293 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+87293 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 183 ms
+87293 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@4c78e00c
+87294 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome REQ-X - Formulário de Contato:Enviar contato com sucesso (fluxo básico)
+87294 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@4c78e00c: Generating report for test outcome: REQ-X - Formulário de Contato:Enviar contato com sucesso (fluxo básico)
+87295 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Enviar contato com sucesso (fluxo básico) in 0f7b96a0c65763002f6137874e480d11e7bb09aa0557bb786b637d9d8bf82c6b
+87333 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature REQ-X - Formulário de Contato
+87334 [pool-3-thread-1] DEBUG n.t.c.r.RequirementsTagProvider -  found:[Requirement{name='REQ-X - Formulário de Contato', type='feature' parent = 'null', cardNumber='null'}]
+87345 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Enviar contato com sucesso (fluxo básico)-[]: Optional[Requirement{name='REQ-X - Formulário de Contato', type='feature' parent = 'null', cardNumber='null'}]
+87367 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Enviar contato com sucesso (fluxo básico)-[]: Optional[Requirement{name='REQ-X - Formulário de Contato', type='feature' parent = 'null', cardNumber='null'}]
+87525 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Enviar contato com sucesso (fluxo básico)-[]: Optional[Requirement{name='REQ-X - Formulário de Contato', type='feature' parent = 'null', cardNumber='null'}]
+87526 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Enviar contato com sucesso (fluxo básico)-[]: Optional[Requirement{name='REQ-X - Formulário de Contato', type='feature' parent = 'null', cardNumber='null'}]
+87942 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 0f7b96a0c65763002f6137874e480d11e7bb09aa0557bb786b637d9d8bf82c6b_screenshots.html
+88999 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 0f7b96a0c65763002f6137874e480d11e7bb09aa0557bb786b637d9d8bf82c6b_screenshots.html in 1057 ms
+89002 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR REQ-X - Formulário de Contato:Enviar contato com sucesso (fluxo básico) in 0f7b96a0c65763002f6137874e480d11e7bb09aa0557bb786b637d9d8bf82c6b.html in directory target\site\serenity  
+90141 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 0f7b96a0c65763002f6137874e480d11e7bb09aa0557bb786b637d9d8bf82c6b.html
+94672 [pool-3-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 0f7b96a0c65763002f6137874e480d11e7bb09aa0557bb786b637d9d8bf82c6b.html in 4531 ms
+94672 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome REQ-X - Formulário de Contato:Enviar contato com sucesso (fluxo básico) done
+94672 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+94672 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 7379 ms
+95129 [main] DEBUG n.s.core.photography.Darkroom - Closing darkroom
+95131 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line shutting down
