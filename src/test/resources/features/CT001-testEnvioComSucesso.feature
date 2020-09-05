@@ -1,9 +1,9 @@
 # language: pt
 
 # tags de exemplo
-@all @reqX @sucesso @fb @regressivo
+@all @req003 @sucesso @fb @regressivo
 
-Funcionalidade: REQ-X - Formulário de Contato
+Funcionalidade: REQ-003 - Formulário de Contato
 
 	Esquema do Cenario: Enviar contato com sucesso (fluxo básico)
 

@@ -35,7 +35,6 @@ public class Req003Steps {
 	public void informar_mensagem(String msg) {
 		page.informarConteudoMensagem(msg);
 	}
-
 	@Step
 	public void submeta() {
 		page.submeta();
@@ -46,6 +45,13 @@ public class Req003Steps {
 		assertThat(
 				 page.getToastMsg(),
 				 containsStringIgnoringCase("Mensagem enviada com sucesso!")
+		);
+	}
+	@Step
+	public void verificar_mensagem_erro() {
+		assertThat(
+				 page.getToastMsg(),
+				 containsStringIgnoringCase("Sua mensagem não pôde ser enviada no momento! Tente mais tarde.")
 		);
 	}
 }
