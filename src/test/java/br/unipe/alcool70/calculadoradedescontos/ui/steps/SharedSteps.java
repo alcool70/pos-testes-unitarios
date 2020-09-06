@@ -17,12 +17,11 @@ public class SharedSteps {
 		page.acessePaginaContato();
 	}
 
-
-	public void acesse_pagina_listar_produtos() {
-		page.get("https://calculadora.diegoquirino.net/index.php?p=listarProdutos");
+	@Step
+	public void acesse_pagina_desconto() {
+		page.acessarCalculoDesconto();
 	}
 
-	public void getIdProdutoSteps() {
-		page.get("https://calculadora.diegoquirino.net/index.php?p=calcularDesconto&pid=1");
-	}
+
+
 }

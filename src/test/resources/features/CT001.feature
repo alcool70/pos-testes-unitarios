@@ -28,4 +28,3 @@ Funcionalidade: REQ-X - Formulário de Contato
 			| Maria | maria@gmail.com | Dúvida     | Menor que 18 anos  | Dúvida de Maria   |
 			| José  | jose@gmail.com  | Sugestão   | Entre 18 e 60 anos | Sugestão de José  |
 			| Ana   | ana@gmail.com   | Reclamação | Acima de 60 anos   | Reclamação de Ana |
-

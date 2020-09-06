@@ -12,13 +12,14 @@ import static org.openqa.selenium.firefox.FirefoxDriverLogLevel.FATAL;
 public class InicialPage extends MyPageObject {
 
 	@FindBy(id = Locators.ID_BTNCALCULARDESCONTO)
-	WebElement botaoCalcularDesconto;
+	WebElement  botaoCalcularDesconto;
 	@FindBy(id = Locators.ID_BTNAJUDA)
 	WebElement botaoAjuda;
 	@FindBy(id = Locators.ID_BTNCONTATO)
 	WebElement botaoContato;
 
-	void acessarCalculoDesconto() {
+
+	public void acessarCalculoDesconto() {
 		clicar(botaoCalcularDesconto);
 	}
 
@@ -41,6 +42,8 @@ public class InicialPage extends MyPageObject {
 		getDriver().manage().window().maximize();
 		getDriver().get(url);
 	}
-	public void acessePaginaListagemDeProdutos(){clicar(botaoCalcularDesconto);}
 
 }
+
+
+

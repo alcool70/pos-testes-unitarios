@@ -14,11 +14,15 @@ public interface Locators {
 	String ID_BTNSUBMETERCONTATO = "contato.button.enviarMensagem";
 	String XPATH_TOASTMSG = "//strong";
 	String NAME_TIPOMENSAGEM = "tipoMsg";
+	/*listagem de produto*/
+	String CLASS_PRODUTO = "btn-primary";
 
-	/*FormularioCalculoDoDescontoParaProduto*/
-    String CSS_TIPO_CLIENTE = "tipoCliente";
-    String QUANTIDADE_PRODUTO ="quantidade";
-		String ID_PRODUTO = "Código do Produto:";
+	/*Calcular desconto*/
+	String ID_CLIENTE    = "tipoCliente";
+	String ID_QUANTIDADE = "quantidade";
+	String ID_BTCALCULAR = "calculardesconto.button.calcular";
+	String XPATH_MSG = "//strong";
+	String XPATH_FATOR= "//strong[contains(text(),'Fator obtido:')]";
 
-	String ID_BTNSUBMETERCALCULODESCONTO = "Calcular Desconto!";
+
 }
