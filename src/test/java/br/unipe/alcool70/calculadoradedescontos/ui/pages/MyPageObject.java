@@ -39,13 +39,10 @@ public class MyPageObject extends PageObject {
 		element.sendKeys(nomeCompleto);
 	}
 
-
 	public void selecionarNoCombobox(WebElement select, String label) {
 		Select combobox = new Select(select);
 		combobox.selectByVisibleText(label);
 	}
-
-
 
 	public void verificarPresenca(WebElement element) {
 		await()

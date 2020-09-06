@@ -3,7 +3,6 @@ package br.unipe.alcool70.calculadoradedescontos.ui.specs;
 import br.unipe.alcool70.calculadoradedescontos.ui.steps.SharedSteps;
 import io.cucumber.java.pt.Dado;
 import net.thucydides.core.annotations.Steps;
-import org.junit.jupiter.api.parallel.Execution;
 
 public class SharedSpecs {
 	// Comunica com a tela (interface do usuário) Given, When, Then
@@ -20,12 +19,5 @@ public class SharedSpecs {
 	public void acesso_o_menu_para_o_formulário_de_contato() throws Exception {
 		steps.acesse_pagina_contato();
 	}
-
-	@Dado("^acesso o menu para o calculo do desconto")
-	public void acesso_o_menu_para_o_calculo_do_desconto() throws Exception {
-		steps.acesse_pagina_desconto();
-	}
-
-
 
 }
