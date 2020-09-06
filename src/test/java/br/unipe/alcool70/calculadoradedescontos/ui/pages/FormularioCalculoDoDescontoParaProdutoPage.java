@@ -41,8 +41,8 @@ public class FormularioCalculoDoDescontoParaProdutoPage extends MyPageObject {
     }
 
     public void solicitarIdProdudo() {//calculando pelo produto de ID01 -
-    	page.acesse_pagina_CalcularDesconto_Simulacao_Calcular_Desconto();
-    	page.getIdProduto();
+    	page.acesse_pagina_listar_produtos();
+    	page.getIdProdutoSteps();
 
     }
 }

@@ -16,9 +16,13 @@ public class CompartilhadosSteps {
         page.acessePaginaContato();
     }
     @Step
-    public void acesse_pagina_ListarProdutos(){page.get("https://calculadora.diegoquirino.net/index.php?p=listarProdutos");}
-    @Step
-    public void acesse_pagina_CalcularDesconto_Id01(){page.get("https://calculadora.diegoquirino.net/index.php?p=calcularDesconto&pid=1");}
+    public void acesse_pagina_listar_produtos(){
+    	page.acessePaginaListarProdutos();
+    }
 
+		@Step
+		public void selecionar_Produto() {
+    	page.get("https://calculadora.diegoquirino.net/index.php?p=calcularDesconto&pid=1");
+	}
 
 }

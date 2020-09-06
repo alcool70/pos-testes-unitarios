@@ -12,20 +12,20 @@ public class Req001Specs {
 
     @Steps
     Req001Steps steps;
-    @Quando("seleciono um produto da lista de produtos") /*(DUVIDA)Ler Comentarios_Victor*/
+    /*(DUVIDA)Ler Comentarios_Victor*/
     @Quando("preencho com dados válidos o Formulário")
     public void preencho_com_dados_validos_o_formulario_de_calculo_do_desconto_para_o_produto(DataTable tabela) throws Exception {
         Map<String, String> dados = tabela.asMap(String.class, String.class);/*Essa parte nao entendi Victor*/
 
-        steps.informar_idProduto();
+        //steps.informar_idProduto();
         steps.informar_tipoCliente(dados.get("nome"));
         steps.informar_quantidadeProduto(dados.get("quantidadeProduto"));
 
     }
 
-    @Quando("^submeto o formulário$")
-    public void submeto_o_formulário() throws Exception {
-        steps.submeta();
+    @Quando("^submeto o formulário calcular desconto$")
+    public void submeto_o_formulário_calcular_desconto() throws Exception {
+        steps.submeta_formulario_calcular_desconto();
     }
 
     @Então("verificar o desconto")

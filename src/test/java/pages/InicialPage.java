@@ -6,4 +6,8 @@ public class InicialPage {
 
     public void acessePaginaContato() {
     }
+
+    public void acessePaginaListarProdutos(){
+
+    }
 }

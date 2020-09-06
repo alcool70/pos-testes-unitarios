@@ -9,13 +9,14 @@ Funcionalidade: REQ001 - Calcular desconto de produto
 
       # Pré condições iniciais
     Dado    que estou na página inicial do sistema
-    E       seleciono um produto da lista de produtos
+    E       estou na pagina de listar produtos
+		E       seleciono um produto
 
       # Procedimento
     Quando  preencho com dados válidos o Formulário
       | tipo        | <tipo>        |
       | quant       | <quant>       |
-    E       submeto o formulário
+    E       submeto o formulário calcular desconto
 
       #Verificação
     Então   verifico que a mensagem de sucesso foi exibida

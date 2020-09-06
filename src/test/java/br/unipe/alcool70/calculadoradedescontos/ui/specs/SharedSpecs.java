@@ -20,5 +20,13 @@ public class SharedSpecs {
 	public void acesso_o_menu_para_o_formulário_de_contato() throws Exception {
 		steps.acesse_pagina_contato();
 	}
+	@Dado("^estou na pagina de listar produtos$")
+	public void que_estou_na_pagina_de_listar_Produtos() throws Exception{
+		steps.acesse_pagina_listar_produtos();
+	}
+	@Dado("^seleciono ID produto$")
+	public void seleciono_Id_produto_SharedSpecs() throws Exception{
+		steps.getIdProdutoSteps();
+	}
 
 }

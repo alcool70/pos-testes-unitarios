@@ -30,6 +30,10 @@ public class MyPageObject {
         verificarPresenca(element);
         element.submit();
     }
+	public void submeterFormularioDesconto(WebElement element) {
+		verificarPresenca(element);
+		element.submit();
+	}
 
     public void clicar(WebElement element) {
         verificarPresenca(element);

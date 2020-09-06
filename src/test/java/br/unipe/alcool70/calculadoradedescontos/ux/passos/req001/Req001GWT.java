@@ -11,12 +11,12 @@ public class Req001GWT {
 
     @Steps
     Req001Steps steps;
-    @Quando("seleciono um produto da lista de produtos") /*(DUVIDA)Ler Comentarios_Victor*/
-    @Quando("^preencho com dados válidos o formulário$")
+    @Quando("") /*(DUVIDA)Ler Comentarios_Victor*/
+    @Quando("^$")
     public void preencho_com_dados_validos_o_formulario_de_calculo_do_desconto_para_o_produto(DataTable tabela) throws Exception {
         Map<String, String> dados = tabela.asMap(String.class, String.class);/*Essa parte nao entendi Victor*/
 
-        steps.informar_idProduto();
+        //steps.selecionar_Produto();//SELECIONANDO PELO ID 1
         steps.informar_tipoCliente(dados.get("nome"));
         steps.informar_quantidadeProduto(dados.get("quantidadeProduto"));
 
@@ -24,12 +24,12 @@ public class Req001GWT {
 
     @Quando("^submeto o formulário$")
     public void submeto_o_formulário() throws Exception {
-        steps.submeta();
+        steps.submeta_formulario_Calcular_Desconto();
     }
 
     @Então("verificar o desconto")
     public void verifica_fator_de_desconto() throws Exception {
-        "Ainda nao entendi isso aqui" /*"Duvida" @author Victor*/
+        //"Ainda nao entendi isso aqui" /*"Duvida" @author Victor*/
         steps.verifica_fator_desconto();
     }
     @Então("^verifico que a mensagem de sucesso foi exibida$")

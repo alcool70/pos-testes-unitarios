@@ -27,7 +27,7 @@ public class Req001Steps {
     }
 
     @Step
-    public void submeta() {
+    public void submeta_formulario_calcular_desconto() {
         page.submeta();
     }
 
@@ -39,6 +39,7 @@ public class Req001Steps {
     }
 
     public void verifica_fator_desconto() {
+
 
     }
 
