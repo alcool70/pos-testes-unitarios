@@ -123,6 +123,20 @@
 			<version>${serenity.cucumber.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<!--@Victor(https://www.it-swarm.dev/pt/java/excecao-no-encadeamento-main-cucumber.runtime.cucumberexception-nenhum-back-end-foi-encontrado/1049645921/)-->
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>6.6.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<!--@victor-Fim-->
 	</dependencies>
 
 	<build>
