@@ -1,7 +1,7 @@
 # language: pt
 
 # tags de exemplo
-@all @req003 @sucesso @fb @regressivo
+@all @req003 @fb @regressivo
 
 Funcionalidade: REQ-003 - Formulário de Contato
 
@@ -24,7 +24,7 @@ Funcionalidade: REQ-003 - Formulário de Contato
 		Então   verifico que a mensagem de sucesso foi exibida
 
 		Exemplos:
-    			| NOME  	| EMAIL          		| TIPO       | IDADE              | MENSAGEM							|
+    			| nome  	| email          		| tipo       | idade              | msg     							|
     			| Maria 	| maria@gmail.com 	| Dúvida     | Menor que 18 anos  | Dúvida de Maria   		|
     			| Carlos	| carlos@gmail.com	| Dúvida     | Entre 18 e 60 anos | Dúvida de Carlos  		|
     			| Alison	| Alison@gmail.com	| Dúvida     | Acima de 60 anos   | Dúvida de Alison 	 		|
@@ -35,3 +35,19 @@ Funcionalidade: REQ-003 - Formulário de Contato
     			| Thiago	| thiago@gmail.com	| Reclamação | Entre 18 e 60 anos | Reclamaçao de Thiago	|
     			| Ana   	| ana@gmail.com   	| Reclamação | Acima de 60 anos   | Reclamação de Ana 		|
 
+
+
+	@all @falha
+	 	#Cenario 2: Formulário sem dados preenchisos (MSG004)
+
+		Cenario: Enviar formulário sem preencher os dados
+
+ 		# Pré condições iniciais
+			Dado    que estou na página inicial do sistema
+			E       acesso o menu para o formulário de contato
+
+		# Procedimento
+			# Nenhum dado é inserido no formulário
+			Quando submeto o formulário
+
+			Então verifico que a mensagem de erro foi exibida
