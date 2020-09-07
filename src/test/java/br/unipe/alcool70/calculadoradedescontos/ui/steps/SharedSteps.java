@@ -21,7 +21,4 @@ public class SharedSteps {
 	public void acesse_pagina_desconto() {
 		page.acessarCalculoDesconto();
 	}
-
-
-
 }

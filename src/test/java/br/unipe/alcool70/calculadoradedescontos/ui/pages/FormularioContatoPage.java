@@ -12,7 +12,7 @@ public class FormularioContatoPage extends MyPageObject {
 	@FindBy(name = Locators.NAME_NOME)
 	WebElement inputNome;
 	@FindBy(id = Locators.ID_EMAIL)
-	WebElement  inputEmail;
+	WebElement inputEmail;
 	@FindBy(name = Locators.NAME_TIPOMENSAGEM)
 	List<WebElement> radioTipoMensagem;
 	@FindBy(css = Locators.CSS_SELECT_FAIXAIDADE)
@@ -23,7 +23,6 @@ public class FormularioContatoPage extends MyPageObject {
 	WebElement botaoSubmeterCotato;
 	@FindBy(xpath = Locators.XPATH_TOASTMSG)
 	WebElement toastMsg;
-
 
 	public void preenchaFormularioContato(String tipoMensagem, String faixaIdade) {
 		Faker faker = new Faker(new Locale("pt_BR"));
