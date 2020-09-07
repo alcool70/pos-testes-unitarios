@@ -39,7 +39,13 @@ public class Req001CLIENTBSteps {
 		);
 	}
 
-
+	@Step
+	public void verificar_mensagem_erro() {
+		assertThat(
+				 page.getmsg(),
+				 containsStringIgnoringCase("A quantidade informada deve ser maior ou igual a 01 (um)!")
+		);
+	}
 
 
 

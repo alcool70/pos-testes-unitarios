@@ -10,7 +10,6 @@ import net.thucydides.core.annotations.Steps;
 import java.util.Map;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsStringIgnoringCase;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Req001CLIENTBSpecs<pubblic> {
@@ -38,6 +37,13 @@ public class Req001CLIENTBSpecs<pubblic> {
 	@Então("^verifico se a mensagem foi eixibida com sucesso$")
 	public void verifico_se_a_mensagem_foi_eixibida_com_sucesso () throws Exception{
 		steps.verificar_mensagem_sucesso();
+
+
+	}
+
+	@Então("^verifico se a mensagem de erro foi exibida$")
+	public void verifico_se_a_mensagem_de_erro_foi_exibida () throws Exception{
+		steps.verificar_mensagem_erro();
 
 
 	}
