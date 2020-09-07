@@ -18,7 +18,7 @@ public class InicialPage extends MyPageObject {
 	@FindBy(id = Locators.ID_BTNCONTATO)
 	WebElement botaoContato;
 
-	void acessarCalculoDesconto() {
+	public void acessarCalculoDesconto() {
 		clicar(botaoCalcularDesconto);
 	}
 

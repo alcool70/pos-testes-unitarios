@@ -20,4 +20,9 @@ public class SharedSpecs {
 		steps.acesse_pagina_contato();
 	}
 
+	@Dado("^acesso o menu para o calculo do desconto")
+	public void acesso_o_menu_para_o_calculo_do_desconto() throws Exception {
+		steps.acesse_pagina_desconto();
+	}
+
 }
