@@ -36,3 +36,4 @@ target/
 .mvn/
 mvnw
 mvnw.cmd
+tests.log

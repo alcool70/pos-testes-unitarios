@@ -23,7 +23,6 @@ public class Req003Specs {
 		steps.informar_faixa_idade(dados.get("idade"));
 		steps.informar_mensagem(dados.get("msg"));
 	}
-
 	@Quando("^submeto o formulário$")
 	public void submeto_o_formulário() throws Exception {
 		steps.submeta();
@@ -32,6 +31,10 @@ public class Req003Specs {
 	@Então("^verifico que a mensagem de sucesso foi exibida$")
 	public void verifico_que_a_mensagem_de_sucesso_foi_exibida() throws Exception {
 		steps.verificar_mensagem_sucesso();
+	}
+	@Então("^verifico que a mensagem de erro foi exibida$")
+	public void verifico_que_a_mensagem_de_erro_foi_exibida() throws Exception {
+		steps.verificar_mensagem_erro();
 	}
 
 }

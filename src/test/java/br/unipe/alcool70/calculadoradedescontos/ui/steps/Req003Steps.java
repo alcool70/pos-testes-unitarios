@@ -5,7 +5,6 @@ import net.thucydides.core.annotations.Step;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsStringIgnoringCase;
-import static org.hamcrest.Matchers.is;
 
 public class Req003Steps {
 
@@ -48,8 +47,11 @@ public class Req003Steps {
 				 containsStringIgnoringCase("Mensagem enviada com sucesso!")
 		);
 	}
-
-
-
-
+	@Step
+	public void verificar_mensagem_erro() {
+		assertThat(
+				 page.getToastMsg(),
+				 containsStringIgnoringCase("Sua mensagem não pôde ser enviada no momento! Tente mais tarde.")
+		);
+	}
 }
