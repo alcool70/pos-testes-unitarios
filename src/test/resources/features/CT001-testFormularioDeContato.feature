@@ -4,7 +4,7 @@
 @all @req003 @fb @regressivo
 
 Funcionalidade: REQ-003 - Formulário de Contato
-
+	#Cenário 1: Preenchendo o formulário com dados válidos (MSG003)
 	Esquema do Cenario: Enviar contato com sucesso (fluxo básico)
 
 		# Pré condições iniciais
