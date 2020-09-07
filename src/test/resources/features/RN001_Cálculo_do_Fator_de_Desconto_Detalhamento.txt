@@ -1,0 +1,30 @@
+package features;
+
+public @interface RN001_Cálculo_do_Fator_de_Desconto_Detalhamento {
+	/**
+	 * RN001 - Cálculo do Fator de Desconto
+	 *
+	 * Detalhamento
+	 * O cálculo do fator do desconto deverá levar em consideração o Tipo do Cliente e a quantidade de itens do produto que serão comprados.
+	 * O fator será calculado nas seguintes proporções:
+	 *
+	 * Quantidades inferiores a 100 unidades (<100)
+	 *
+	 * Cliente A: fator 0,9 (10% de desconto)
+	 * Cliente B: fator 0,85 (15% de desconto)
+	 * Cliente C: fator 0,8 (20% de desconto)
+	 *
+	 * Quantidades inferiores a 1000 unidades (>=100 e <1000)
+	 *
+	 * Cliente A: fator 0,95 (5% de desconto)
+	 * Cliente B: fator 0,9 (10% de desconto)
+	 * Cliente C: fator 0,85 (15% de desconto)
+	 *
+	 * Quantidade a partir de 1000 unidades (>=1000)
+	 *
+	 * Cliente A: fator 1,0 (0% de desconto)
+	 * Cliente B: fator 0,95 (5% de desconto)
+	 * Cliente C: fator 0,9 (10% de desconto)
+	 *
+	 * */
+}

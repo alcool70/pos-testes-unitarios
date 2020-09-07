@@ -432,3 +432,217 @@ Enviar contato com sucesso (fluxo b�sico)
 94672 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 7379 ms
 95129 [main] DEBUG n.s.core.photography.Darkroom - Closing darkroom
 95131 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line shutting down
+4113 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+4144 [main] DEBUG n.t.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4452e37f
+4160 [main] INFO   - Test Suite Started: REQ-X - Calcular desconto
+5160 [main] DEBUG n.t.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@209914db
+5160 [main] INFO   - Test Suite Started: REQ-X - Formul�rio de Contato
+5175 [main] DEBUG n.t.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4452e37f
+5175 [main] INFO   - Test Suite Started: REQ-X - Calcular desconto
+5175 [main] DEBUG n.t.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@3ae8ac86
+5175 [main] INFO   - Test Suite Started: REQ-001 - Calcular desconto
+2738 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+6345 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+6345 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+6448 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+6482 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+6482 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+6593 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+6593 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+6593 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+6593 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+6594 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+6594 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+6594 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+6594 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+6595 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+6595 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+6595 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+6595 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+6595 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+6624 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+6624 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+6624 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+8471 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 6916 (auto-detected)
+8568 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 60:6d:c7:ff:fe:c5:3e:af (auto-detected)
+8768 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+8769 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+33034 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+33068 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+35081 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+35129 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+36023 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+36051 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+36634 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+36635 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+36958 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+36961 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+40417 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+40419 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+40558 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+40607 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+50789 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+50794 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+51815 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+51834 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+52681 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+52686 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+53250 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+53251 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+53545 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+53553 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+54213 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+54219 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+54345 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+54378 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+68975 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+68979 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+70015 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+70030 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+70993 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+70997 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+71707 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+71708 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+72008 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+72011 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+72740 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+72743 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+72886 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+72906 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+87361 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+87365 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+88548 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+88558 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+89681 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+89683 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+90323 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+90324 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+90726 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+90728 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+91762 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+91764 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+91928 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+91952 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+106436 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+106438 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+107331 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+107341 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+108361 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+108364 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+108935 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+108937 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+109282 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+109285 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+110018 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+110020 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+110207 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+2287 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+3598 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+3599 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+3645 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+3659 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+3659 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+3734 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+3734 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+3734 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+3735 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+3735 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+3735 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+3735 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+3735 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+3735 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+3735 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+3736 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+3736 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+3736 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+3749 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+3750 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+3750 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+4942 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 8840 (auto-detected)
+5013 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 60:6d:c7:ff:fe:c5:3e:af (auto-detected)
+5122 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+5123 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+15107 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+15126 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+16288 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+16353 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+17357 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+17380 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+17997 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+17999 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+18317 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+18320 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+18967 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+18972 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+19126 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+19174 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+30363 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+30365 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+31321 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+31337 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+32153 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+32155 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+32699 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+32700 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+33011 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+33013 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+33677 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+33679 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+33806 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+33829 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+44205 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+44208 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+45151 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+45165 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+46071 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+46074 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+46751 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+46752 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+47045 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+47048 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+47670 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+47676 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+47777 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+47811 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+63127 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+63130 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+64193 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+64210 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+65207 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+65210 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+65924 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+65925 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+66267 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+66268 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+66915 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+66918 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+67010 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
+67031 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.que_estou_na_página_inicial_do_sistema - acesse_pagina_inicial
+82916 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_inicial
+82918 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: SharedSpecs.acesso_o_menu_para_o_calculo_do_desconto - acesse_pagina_desconto
+84002 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: acesse_pagina_desconto
+84012 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.seleciono_o_produto - selecionar_produto
+84811 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: selecionar_produto
+84816 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_tipo_cliente
+85456 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_tipo_cliente
+85457 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.preencho_com_dados_do_cliente - informar_qtd_iten
+85775 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: informar_qtd_iten
+85776 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.calculo_o_desconto - calcular_o_desconto
+86412 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: calcular_o_desconto
+86416 [main] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: Req001CLIENTCSpecs.verifico_se_a_mensagem_foi_eixibida_com_sucesso - verificar_mensagem_sucesso
+86523 [main] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: verificar_mensagem_sucesso
