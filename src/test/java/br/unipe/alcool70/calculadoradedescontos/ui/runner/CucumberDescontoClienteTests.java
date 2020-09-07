@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
 					"br.unipe.alcool70.calculadoradedescontos.ui.steps",
 					"br.unipe.alcool70.calculadoradedescontos.ui.specs"
 		 },
-		 features = "src/test/resources/features/CT002CLIENTB.feature",
+		 features = "src/test/resources/features/CT002Cliente.feature",
 		 strict = true,
 		 tags = "@all"
 )
-public class CucumberDescontoCLIENTBTests {}
+public class CucumberDescontoClienteTests {}

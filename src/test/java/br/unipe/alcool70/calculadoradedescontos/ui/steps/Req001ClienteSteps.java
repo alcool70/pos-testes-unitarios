@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.Step;
 import static org.hamcrest.Matchers.containsStringIgnoringCase;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class Req001CLIENTBSteps {
+public class Req001ClienteSteps {
 
 	ProdutoPage page;
 

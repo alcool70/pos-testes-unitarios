@@ -1,6 +1,6 @@
 package br.unipe.alcool70.calculadoradedescontos.ui.specs;
 
-import br.unipe.alcool70.calculadoradedescontos.ui.steps.Req001CLIENTBSteps;
+import br.unipe.alcool70.calculadoradedescontos.ui.steps.Req001ClienteSteps;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Então;
@@ -12,10 +12,10 @@ import java.util.Map;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Req001CLIENTBSpecs<pubblic> {
+public class Req001ClienteSpecs<pubblic> {
 
 	@Steps
-	Req001CLIENTBSteps steps;
+	Req001ClienteSteps steps;
 
 	@Dado("^seleciono o produto$")
 	public void seleciono_o_produto() throws Exception {
