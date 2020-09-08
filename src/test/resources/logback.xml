@@ -15,11 +15,11 @@
 	</appender>
 
 	<logger name="io.github.bonigarcia.wdm" level="WARN"/>
-	<logger name="io.netty.util" level="WARN"/>
+	<logger name="io.netty" level="WARN"/>
 	<logger name="org.apache.hc" level="WARN"/>
 	<logger name="org.asynchttpclient.netty" level="WARN"/>
 
-	<root level="debug">
+	<root level="info">
 		<appender-ref ref="CONSOLE" />
 		<appender-ref ref="FILE" />
 	</root>

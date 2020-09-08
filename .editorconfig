@@ -591,3 +591,7 @@ ij_html_uniform_ident = false
 [{*.yaml,*.yml}]
 ij_yaml_keep_indents_on_empty_lines = false
 ij_yaml_keep_line_breaks = true
+
+[*.feature]
+tab_width = 2
+max_line_length = 150
