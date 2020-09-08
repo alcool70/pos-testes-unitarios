@@ -18,11 +18,10 @@ public interface Locators {
 	String CLASS_PRODUTO = "btn-primary";
 
 	/*Calcular desconto*/
-	String ID_CLIENTE    = "tipoCliente";
+	String ID_CLIENTE = "tipoCliente";
 	String ID_QUANTIDADE = "quantidade";
 	String ID_BTCALCULAR = "calculardesconto.button.calcular";
-	String XPATH_MSG = "//strong";
-	String XPATH_FATOR= "//strong[contains(text(),'Fator obtido:')]";
-
+	String XPATH_MSG = "//div[@id='success.msg']/strong[contains(text(),'Operação realizada com sucesso')]";
+	String XPATH_FATOR = "//div[@class='panel panel-info']/div[@class='panel-body']/p[3][text()]";
 
 }

@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.Step;
 import static org.hamcrest.Matchers.containsStringIgnoringCase;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class Req001ClienteSteps {
+public class ClienteSteps {
 
 	ProdutoPage page;
 
@@ -35,7 +35,6 @@ public class Req001ClienteSteps {
 		assertThat(
 				 page.getmsg(),
 				 containsStringIgnoringCase("Operação realizada com sucesso!")
-
 		);
 	}
 
@@ -46,7 +45,5 @@ public class Req001ClienteSteps {
 				 containsStringIgnoringCase("A quantidade informada deve ser maior ou igual a 01 (um)!")
 		);
 	}
-
-
 
 }

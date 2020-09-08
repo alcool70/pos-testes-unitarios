@@ -1,6 +1,6 @@
 package br.unipe.alcool70.calculadoradedescontos.ui.specs;
 
-import br.unipe.alcool70.calculadoradedescontos.ui.steps.Req003Steps;
+import br.unipe.alcool70.calculadoradedescontos.ui.steps.ContatoSteps;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
@@ -8,10 +8,10 @@ import net.thucydides.core.annotations.Steps;
 
 import java.util.Map;
 
-public class Req003Specs {
+public class ContatoSpecs {
 
 	@Steps
-	Req003Steps steps;
+	ContatoSteps steps;
 
 	@Quando("^preencho com dados válidos o formulário$")
 	public void preencho_com_dados_válidos_o_formulário(DataTable tabela) throws Exception {
