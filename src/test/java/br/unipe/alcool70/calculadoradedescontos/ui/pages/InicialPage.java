@@ -4,10 +4,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxDriverLogLevel;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.FindBy;
 
-import static org.openqa.selenium.firefox.FirefoxDriverLogLevel.FATAL;
+import java.util.concurrent.TimeUnit;
 
 public class InicialPage extends MyPageObject {
 
@@ -33,13 +34,15 @@ public class InicialPage extends MyPageObject {
 	public void get(String url) {
 		WebDriverManager.firefoxdriver().setup();
 
-		FirefoxOptions opts = new FirefoxOptions().setLogLevel(FATAL);
+		FirefoxOptions opts = new FirefoxOptions();
+		opts.setLogLevel(FirefoxDriverLogLevel.FATAL);
 		opts.setCapability("marionette", true);
 
 		WebDriver drv = new FirefoxDriver(opts);
+		drv.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		drv.manage().window().maximize();
+		drv.get(url);
 		setDriver(drv);
-		getDriver().manage().window().maximize();
-		getDriver().get(url);
 	}
 
 }
